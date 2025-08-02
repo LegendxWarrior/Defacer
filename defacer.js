@@ -19,14 +19,14 @@ document.querySelector("html").innerHTML = `
       text-align: center;
     }
 
-    .Main {
-      font-size: 12vw;
+        .Main {
+      font-size: 8vw;
       color: #FF0000;
       animation: main-anim 15s infinite;
     }
 
     .wish {
-      font-size: 15vw;
+      font-size: 10vw;
       color: #FFF2F2;
       margin-top: 4vh;
       animation: wish-anim 10s infinite;
