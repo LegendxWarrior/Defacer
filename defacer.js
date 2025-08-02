@@ -20,13 +20,13 @@ document.querySelector("html").innerHTML = `
     }
 
     .Main {
-      font-size: 6vw;
+      font-size: 8vw;
       color: #FF0000;
       animation: main-anim 15s infinite;
     }
 
     .wish {
-      font-size: 8vw;
+      font-size: 10vw;
       color: #FFF2F2;
       margin-top: 4vh;
       animation: wish-anim 10s infinite;
@@ -51,7 +51,7 @@ document.querySelector("html").innerHTML = `
     }
 
     .show {
-      margin-top: 5vh;
+      margin-top: 1vw;
       font-size: 2.5vw;
     }
 
@@ -60,7 +60,7 @@ document.querySelector("html").innerHTML = `
     }
 
     .about {
-      font-size: 2.5vw;
+      font-size: 1vw;
       color: #FF8F04;
       margin-top: 6vh;
     }
