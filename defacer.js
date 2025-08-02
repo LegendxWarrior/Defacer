@@ -47,14 +47,23 @@ document.querySelector("html").innerHTML = `
     }
 
     p {
-      font-size: 4vw;
-      margin-top: 4vh;
-      background: linear-gradient(180deg, red, white, green);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      color: transparent;
-    }
+  font-size: 5.5vw;
+  margin-top: 4vh;
+  background: linear-gradient(180deg, red, white, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (min-width: 768px) {
+p {
+  font-size: 1.5rem;
+}
+.show, .about {
+  font-size: 1.2rem;
+}
+}
 
     .show {
       margin-top: 5vh;
