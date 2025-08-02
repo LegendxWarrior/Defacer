@@ -20,13 +20,13 @@ document.querySelector("html").innerHTML = `
     }
 
         .Main {
-      font-size: 8vw;
+      font-size: 4vw;
       color: #FF0000;
       animation: main-anim 15s infinite;
     }
 
     .wish {
-      font-size: 10vw;
+      font-size: 6vw;
       color: #FFF2F2;
       margin-top: 4vh;
       animation: wish-anim 10s infinite;
