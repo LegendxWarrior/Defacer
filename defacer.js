@@ -19,14 +19,14 @@ document.querySelector("html").innerHTML = `
       text-align: center;
     }
 
-        .Main {
-      font-size: 4vw;
+    .Main {
+      font-size: 5vw;
       color: #FF0000;
       animation: main-anim 15s infinite;
     }
 
     .wish {
-      font-size: 6vw;
+      font-size: 7vw;
       color: #FFF2F2;
       margin-top: 4vh;
       animation: wish-anim 10s infinite;
@@ -51,16 +51,13 @@ document.querySelector("html").innerHTML = `
     }
 
    .show {
-      margin-top: 1vw;
-      font-size: 1vw;
-    }
-
-    .show h2 {
+      margin-top: 2vw;
+      font-size: 3vw;
       color: red;
     }
 
     .about {
-      font-size: 1vw;
+      font-size: 2vw;
       color: #FF8F04;
       margin-top: 6vh;
     }
