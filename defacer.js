@@ -65,17 +65,17 @@ p {
 }
 }
 
-    .show {
-      margin-top: 5vh;
-      font-size: 4vw;
-      color: red;
-    }
+    ..show {
+  margin-top: 5vh;
+  font-size: 3.5vw; /* was 4vw */
+  color: red;
+}
 
-    .about {
-      color: #FF8F04;
-      font-size: 4.5vw;
-      margin-top: auto;
-    }
+.about {
+  color: #FF8F04;
+  font-size: 3.8vw; /* was 4.5vw */
+  margin-top: auto;
+}
 
     @keyframes main-anim {
       0% {
