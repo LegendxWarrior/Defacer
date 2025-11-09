@@ -1,0 +1,180 @@
+document.querySelector('html').innerHTML =`
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hacked by Legend</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000000;
+      background:url("https://bestanimations.com//Nature//Fire//fire-animated-gif-4.gif")no-repeat center center fixed ;
+      -webkit-background-size:cover;
+      -o-background-size:cover;
+      background-size: cover;
+      
+      color: #fff;
+      font-family: 'Marmelad', sans-serif;
+      padding: 1vh 2vw;
+      text-align: center;
+    }
+
+    /* Top header images */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0vw;
+    }
+
+    .hindu {
+      width: 25%;
+      max-width: 120px;
+      height: auto;
+      border-radius: 0%;
+    }
+
+    .dp {
+      width: 18%;
+      max-width: 180px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    .Main {
+      font-size: 6vw;
+      color: #FF2727;
+      margin-top: 0vh;
+      animation: main-anim 10s infinite, shake 3s linear infinite;
+    }
+
+    video {
+      width: 80vw;
+      height: auto;
+      z-index: -1;
+      margin-top: 3vh;
+    }
+
+    p {
+      font-size: 4vw;
+      max-width: 800px;
+      margin: 0vh auto 0;
+      background: linear-gradient(180deg, #FF7900, white, green);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .show {
+      margin-top: 10vw;
+      font-size: 3vw;
+      color: red;
+    }
+
+    .about {
+      font-size: 2vw;
+      color: #FF8F04;
+      margin-top: 6vh;
+    }
+
+    @media (min-width: 768px) {
+      .Main {
+        font-size: 3rem;
+      }
+
+      .wish {
+        font-size: 4rem;
+      }
+
+      p, .show, .about {
+        font-size: 1.2rem;
+      }
+    }
+
+    @keyframes main-anim {
+      0% { text-shadow: none; }
+      50% {
+        text-shadow: -2px -2px 0 #000, 2px 2px 0 #000,
+                     15px 15px 15px #FF0000, -15px 15px 15px #FF0000,
+                     15px -15px 20px #FF0000, -15px -15px 30px #FF0000;
+      }
+    }
+    @keyframes shake {
+      0%{transform: translate(0);}
+      25%{transform: translate(2vw);}
+      50%{transform: translate(0);}
+      75%{transform: translate(-2vw);}
+      100%{transform: translate(0);}
+    }
+  </style>
+</head>
+<body onmouseover="playMusic()">
+
+  <!-- Header images -->
+  <div class="header">
+    <img src="https://raw.githubusercontent.com/legendxWarrior/Defacer/main/hindu_flag.gif" alt="LegendX" class="hindu">
+    <img src="https://raw.githubusercontent.com/legendxWarrior/Defacer/main/Legendx.png" alt="LegendX" class="dp">
+  </div>
+
+  <h1 class="Main">[+] Hacked by LegendxWarrior [+]</h1>
+
+  <video autoplay muted loop playsinline>
+    <source src="https://raw.githubusercontent.com/legendxWarrior/Defacer/main/INDIAN_FLAG.mp4" type="video/mp4">
+    Indian Flag
+  </video>
+
+  <p>
+    <strong>Bug Exploited | System Compromised | Be Aware | Nothing is secure | Indian Hacker</strong>
+  </p>
+
+  <div class="show">
+    <h2>||  धर्मो रक्षति रक्षितः ||<br>|| भारत माता की जय ||<br>🚩जय श्री राम 🚩<br>⚔️⚔️⚔️</h2>
+  </div>
+
+  <div class="about">
+    <h1>[•]&nbsp;&nbsp;#AloneHacker&nbsp;&nbsp;[•]</h1>
+  
+  </div>
+  
+  <br>
+  <br>
+  <audio id="music" loop>
+    <source src="https://c.top4top.io//m_26194588m1.mp3" type="audio/mp3">
+  </audio>
+<script>
+function playMusic(){
+  const audio = document.getElementById("music");
+  audio.play();
+  console.log("Music started")
+  
+  setTimeout(()=> {
+    audio.muted = false;
+  },2000);
+};
+</script>
+<script>
+  const script = document.createElement("script");
+  script.src = "https://aakashbapna.github.io/jet-planes/doodle.js";
+  
+  // Wait until the script is fully loaded
+  script.onload = () => {
+    doodle.init("https://aakashbapna.github.io/jet-planes/jet.png");
+  };
+  
+  document.body.appendChild(script);
+</script>
+
+  <!-- Canvas -->
+  <canvas id="canvas_doodle" height="90" width="423" 
+          style="position: fixed; top: 0; left: 0; z-index: -1; pointer-events: none;">
+  </canvas>
+  
+  
+</body>
+`;
